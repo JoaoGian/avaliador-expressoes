@@ -1,0 +1,8 @@
+Repositório Git do projeto:
+https://github.com/JoaoGian/avaliador-expressoes
+
+Commits realizados:
+- João Pedro Gianfaldoni: estrutura inicial do projeto com pilha e lista de tokens.
+- João Pedro Gianfaldoni: implementação da avaliação posfixa e classe de variáveis.
+- João Pedro Gianfaldoni: integração com REPL, comandos VARS/RESET, e gravador de comandos.
+- João Pedro Gianfaldoni: comentários explicativos e organização final do código.
