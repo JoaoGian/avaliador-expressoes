@@ -5,4 +5,14 @@ Commits realizados:
 - João Pedro Gianfaldoni: estrutura inicial do projeto com pilha e lista de tokens.
 - João Pedro Gianfaldoni: implementação da avaliação posfixa e classe de variáveis.
 - João Pedro Gianfaldoni: integração com REPL, comandos VARS/RESET, e gravador de comandos.
-- João Pedro Gianfaldoni: comentários explicativos e organização final do código.
+- João Pedro Gianfaldoni: comentários : Esse projeto é um interpretador de expressões matemáticas com interface tipo terminal (REPL), feito totalmente sem estruturas prontas da linguagem. A ideia é:
+
+Receber expressões como A + B * C.
+
+Converter essa expressão para notação posfixa: A B C * +.
+
+Avaliar essa expressão se os valores das variáveis (A, B, C) já tiverem sido definidos.
+
+Suportar comandos extras como gravação de comandos (REC), listagem de variáveis (VARS), reinício (RESET) e saída (EXIT).
+
+
